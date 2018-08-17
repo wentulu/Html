@@ -1,0 +1,40 @@
+<!DOCTYPE html/>
+<html>
+  <body>
+
+    <script>
+      document.write("<h1>this is a heading</h1>")
+      document.write("<p>this is a paragraph</p>")
+    </script>
+
+    <button type="button" onclick="alert('Hello World')">click</button>
+
+    <script>
+      function myFunction(){
+        x = document.getElementById("demo");
+        x.innerHTML="Hello javascript!"
+      }
+    </script>
+
+    <button type="button" onclick="myFunction()">修改内容</button>
+
+    <p id="demo">
+      Hello Html!
+    </p>
+
+
+    <script>
+      function changeImg(){
+        element = document.getElementById("bulb");
+        if (element.src.match("bulbon")) {
+          element.src"http://www.w3school.com/i/eg_bulboff.gif";
+        }else {
+          element.src"http://www.w3school.com/i/eg_bulbon.gif";
+        }
+      }
+
+    </script>
+    <img src="https://www.w3school.com/i/eg_bulboff.gif" onclick="changeImg()"/>
+  </body>
+
+</html>

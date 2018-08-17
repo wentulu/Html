@@ -1,0 +1,43 @@
+<!DOCTYPE Html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text.html; charset=gb2332"/>
+    <meta http-equiv="content-Language" content="zh-cn"/>
+  </head>
+
+  <body background="http://img3.imgtn.bdimg.com/it/u=267105070,2342868989&fm=27&gp=0.jpg">
+    <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3435004625,276340733&fm=27&gp=0.jpg" alt="Picture 1">
+
+    <!--默认的是底部对齐-->
+    <p>
+      这是一张没有设置对其的<img src="http://www.w3school.com.cn/i/eg_cute.gif"/>图片
+    </p>
+    <!--top bottom middle位置不变-->
+    <!--left right 会把图片放到最右边或者最左边 浮动图片-->
+    <p>
+      这是设置图片对齐的<img src="http://www.w3school.com.cn/i/eg_cute.gif" align="left"/>图片
+    </p>
+
+    <!--图像映射-->
+    <img
+      src="http://www.w3school.com.cn/i/eg_planets.jpg"
+      border="0" usemap="#planetmap"
+      alt="Planets"
+      width="300" height="500"/>
+      <map name="planetmap">
+        <area shape="circle"
+          coords="280,10,10"
+          href="http://www.baidu.com"
+          target="_blank"/>
+        <area shape="rect"
+            coords="0,0,150,500"
+            href="http://www.google.com"
+            target="_blank"/>
+        <area shape="circle"
+              coords="280,490,10"
+              href="http://www.jd.com"
+              target="_blank"/>
+      </map>
+
+  </body>
+</html>

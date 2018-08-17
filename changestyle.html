@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<p id="paragraph1">JAVA JAVASCRIPT HTML CSSS</p>
+		
+		<script>
+			function changeColor(){
+				element = document.getElementById("paragraph1");
+				if(element.style.color=="rgb(255, 0, 0)"){
+					alert("green");
+					element.style.color="#00ff00";
+				}else{
+					alert("Red");
+					element.style.color = "#ff0000";
+				}
+			}
+		</script>
+		
+		<button type="button" onclick="changeColor()">点击</button>
+		
+	</body>
+</html>
